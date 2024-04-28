@@ -9,7 +9,9 @@ const Pricing = () => {
         <p className="w-16 absolute top-[-12px] right-[-10px] transform skew-y-12 rounded bg-[#F10000] text-center text-sm">25% off</p>
       </div>
       <h3 className="text-center font-bold text-5xl mt-7">Pick the Right Plan for You</h3>
-      <div className="flex items-center justify-center gap-10 mt-12 max-w-[900px] mx-auto">
+      <div className="flex items-center justify-center gap-10 mt-12 max-w-[900px] mx-auto relative">
+      <div className="absolute .radial" />
+
       <div className="w-1/3 border flex flex-col items-center p-1 rounded-2xl space-y-4 pb-12 hover:scale-105 cursor-pointer duration-100">
         <p className="text-blue-500">Self-hosted</p>
         <h2 className="text-3xl text-center">Free</h2>

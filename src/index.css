@@ -5,3 +5,7 @@
 .bdy {
   color: black;
 }
+
+.radial {
+  background-image: radial-gradient((#6F30D8)15%,(#261850)0%);
+}
