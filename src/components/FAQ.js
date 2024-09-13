@@ -32,7 +32,7 @@ const FAQ = () => {
     <section id='FAQs' className="max-w-[1100px] mx-auto text-white h-full mt-7">
     <h3 className="text-center font-bold text-5xl my-10">Frequently Asked Questions</h3>
     <div className="border p-5 max-w-[900px] mx-auto bg-[#22293322] rounded-2xl">
-    <div className="max-w-[80%] mx-auto flex flex-col justify-center">
+    <div className={`max-w-[80%] mx-auto flex flex-col justify-center`}>
     {
       Questions.map((qtn)=>(
       <div key={qtn.id} className={`${qtn.id === 6 ? 'border-b-0 mb-4 ':'border-b py-5'}  `}>
